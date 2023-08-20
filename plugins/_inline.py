@@ -50,8 +50,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupportChat"),
+        Button.url("Gɪᴛʜᴜʙ 🖤", url="https://github.com/Radhak8"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ ✨", url="t.me/RadhaX2Support"),
     ],
 ]
 
@@ -60,10 +60,10 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    TLINK = inline_pic() or "https://graph.org/file/74d6259983e0642923fdb.jpg"
+    TLINK = inline_pic() or "https://graph.org/file/8cb56c7e4933091b7c9e9.jpg"
     MSG = "• **Ultroid Userbot •**"
     WEB0 = InputWebDocument(
-        "https://graph.org/file/acd4f5d61369f74c5e7a7.jpg", 0, "image/jpg", []
+        "https://graph.org/file/676d1af4950033929e2a7.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -82,7 +82,7 @@ async def inline_alive(o):
         RES,
         private=True,
         cache_time=300,
-        switch_pm="👥 ULTROID PORTAL",
+        switch_pm="👥 RADHA PORTAL",
         switch_pm_param="start",
     )
 
@@ -146,12 +146,12 @@ async def setting(event):
         link_preview=False,
         buttons=[
             [
-                Button.inline("•Pɪɴɢ•", data="pkng"),
-                Button.inline("•Uᴘᴛɪᴍᴇ•", data="upp"),
+                Button.inline("•ᴩɪɴɢ•", data="pkng"),
+                Button.inline("•ᴜᴩᴛɪᴍᴇ•", data="upp"),
             ],
             [
-                Button.inline("•Stats•", data="alive"),
-                Button.inline("•Uᴘᴅᴀᴛᴇ•", data="doupdate"),
+                Button.inline("•ꜱᴛᴀᴛꜱ•", data="alive"),
+                Button.inline("•ᴜᴩᴅᴀᴛᴇ•", data="doupdate"),
             ],
             [Button.inline("« Bᴀᴄᴋ", data="open")],
         ],
@@ -398,9 +398,9 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Ultroid Op",
+                            title="Radha Op",
                             text=txt,
-                            description="@TeamUltroid",
+                            description="@RadhaX2Support",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -413,10 +413,10 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ultroid Op",
+                        title="Radha Op",
                         type=_type,
                         text=txt,
-                        description="@TeamUltroid",
+                        description="@RadhaX2Update",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
