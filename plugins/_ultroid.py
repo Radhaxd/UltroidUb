@@ -14,21 +14,21 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
-• **ULTROID USERBOT** •\n
-• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)
-• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)
-• Support - @UltroidSupportChat
+• **Moii UserBot** •\n
+• ɢɪᴛʜᴜʙ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://github.com/Radhak8)
+• ᴜᴩᴅᴀᴛᴇꜱ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](http://t.me/RadhaX2Update)
+• ꜱᴜᴩᴩᴏʀᴛ - @RadhaX2Support
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-        Button.url("Addons", "https://github.com/TeamUltroid/UltroidAddons"),
+        Button.url(get_string("bot_3"), "https://github.com/Radhak8"),
+        Button.url("ᴏᴡɴᴇʀ", "http://t.me/MissRadha"),
     ],
-    [Button.url("Support Group", "t.me/UltroidSupportChat")],
+    [Button.url("ꜱᴜᴩᴩᴏʀᴛ", "t.me/RadhaX2Support")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Ultroid Userbot!**
+ULTSTRING = """🎇 **Thanks for Deploying Radha Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
