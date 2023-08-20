@@ -98,9 +98,9 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="Ultroid Userbot",
-                        url="https://t.me/TeamUltroid",
-                        description="(c) TeamUltroid",
+                        title="Radha Assistant",
+                        url="https://t.me/RadhaX2Support",
+                        description="(c) RadhaX2Update",
                         text=MSG,
                         thumb=InputWebDocument(
                             "https://graph.org/file/316a1e6e9b76c5f4904f1.jpg",
