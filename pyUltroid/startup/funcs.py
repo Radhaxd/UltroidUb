@@ -247,8 +247,8 @@ async def autopilot():
         try:
             r = await ultroid_bot(
                 CreateChannelRequest(
-                    title="My Ultroid Logs",
-                    about="My Ultroid Log Group\n\n Join @TeamUltroid",
+                    title="Userbot Logs",
+                    about="MyUserboyt Log Group\n\n Join @RadhaX2Support",
                     megagroup=True,
                 ),
             )
@@ -314,7 +314,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo, _ = await download_file(
-            "https://graph.org/file/27c6812becf6f376cbb10.jpg", "channelphoto.jpg"
+            "https://graph.org/file/81927f6473bca35a5ad53.jpg"
         )
         ll = await ultroid_bot.upload_file(photo)
         try:
@@ -345,7 +345,7 @@ async def customize():
             sir = f"@{ultroid_bot.me.username}"
         file = random.choice(
             [
-                "https://graph.org/file/92cd6dbd34b0d1d73a0da.jpg",
+                "https://graph.org/file/81927f6473bca35a5ad53.jpg",
                 "https://graph.org/file/a97973ee0425b523cdc28.jpg",
                 "resources/extras/ultroid_assistant.jpg",
             ]
