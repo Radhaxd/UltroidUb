@@ -32,8 +32,8 @@ from . import _ult_cache
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupportChat"),
+        Button.url("Gɪᴛʜᴜʙ 🖤", url="https://github.com/Radhak8"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ ✨", url="t.me/RadhaX2Support"),
     ],
 ]
 
@@ -574,7 +574,7 @@ async def inline_tl(ult):
             [
                 await ult.builder.article(
                     title="How to Use?",
-                    description="Tl Searcher by Ultroid",
+                    description="Tl Searcher by Radha",
                     url="https://t.me/TeamUltroid",
                     text=text,
                 )
@@ -598,7 +598,7 @@ async def inline_tl(ult):
                 await ult.builder.article(
                     title=key.__name__,
                     description=tyyp,
-                    url="https://t.me/TeamUltroid",
+                    url="RadhaX2Update",
                     text=text[:4000],
                 )
             )
